@@ -25,7 +25,7 @@ public class MensagemController {
 
         List<Mensagem> listaDeMensagens = new ArrayList<>();
 
-        for(int i = 0; i < listaDeMensagens.size();i++) {
+        for(int i = 0; i < mensagens.size();i++) {
             if(mensagens.get(i).getIdCliente() == idCliente) {
                 listaDeMensagens.add(mensagens.get(i));
             }

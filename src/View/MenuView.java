@@ -60,7 +60,6 @@ public class MenuView {
                     op = leitor.nextInt();
                     break;
             }
-
         } while(op != 0);
 
     }

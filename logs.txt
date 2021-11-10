@@ -1,3 +1,7 @@
 Cliente cadastrado com sucesso
 Mensagem cadastrada com sucesso
 Mensagem cadastrada com sucesso
+Cliente cadastrado com sucesso
+Mensagem cadastrada com sucesso
+Cliente cadastrado com sucesso
+Mensagem cadastrada com sucesso
