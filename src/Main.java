@@ -1,18 +1,14 @@
-import Model.Cliente;
-import Model.Mensagem;
 import View.ClienteView;
+import View.MenuView;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        ClienteView clienteView = new ClienteView();
+        MenuView menuView = new MenuView();
 
-        clienteView.cadastrarCliente();
-
-
+        menuView.menu();
 
     }
 }

@@ -10,11 +10,10 @@ public class ClienteDao {
     Cliente cliente = new Cliente();
 
     public void cadastrarCliente() throws IOException {
-        FileWriter clienteFile = new FileWriter("logs.txt");
+        FileWriter clienteFile = new FileWriter("logs.txt",true);
         PrintWriter printaCliente = new PrintWriter(clienteFile);
 
-        printaCliente.print(cliente.getIdCliente() + ";");
-        printaCliente.println(cliente.getNome());
+        printaCliente.println("Cliente cadastrado com sucesso");
 
         printaCliente.flush();
         printaCliente.close();
